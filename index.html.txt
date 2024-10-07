@@ -4,7 +4,7 @@
 <style>
 h1 {
 color = red;
-text-alingth = center;
+text-align: center;
 }
 p {
 
