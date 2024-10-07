@@ -1,0 +1,8 @@
+<!DOCTYPE html>
+<html>
+<body>
+<h1>Proyecto Wikipedia </h1>
+<p>En este proyecto vamos a crear una pagina web de wikipedia </p>
+
+</body>
+</html>
