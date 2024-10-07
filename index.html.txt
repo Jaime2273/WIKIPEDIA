@@ -3,7 +3,11 @@
 <body>
 <style>
 h1 {
-color = red
+color = red;
+text-alingth = center;
+}
+p {
+
 }
 </style>
 <h1>Proyecto Wikipedia </h1>
