@@ -1,0 +1,138 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f8f9fa;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100vh;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;  
+    padding: 10px 20px;
+    background-color: white;
+    border-bottom: 1px solid #e0e0e0;
+}
+
+.header-icons {
+    width: 100%;
+    display: flex;
+    justify-content: space-between; 
+}
+
+.header-icons .icon {
+    font-size: 24px;
+    cursor: pointer;
+}
+
+.profile-icon {
+    margin-right: auto; 
+}
+
+.menu-icon {
+    margin-left: auto; 
+}
+
+main {
+    padding: 20px;
+}
+
+h1 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.search-container {
+    margin-bottom: 30px;
+}
+
+.search-container input {
+    width: 100%;
+    padding: 10px;
+    border: 2px solid #e0e0e0;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+.top-rated {
+    margin-top: 20px;
+}
+
+.top-rated h2 {
+    font-size: 18px;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+
+.card {
+    display: flex;
+    flex-direction: column; /* Cambia de row a column */
+    margin-bottom: 20px;
+    background-color: white;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.card img {
+    width: 50%; /* Cambiar el ancho a un 60% del contenedor */
+    height: auto; /* Mantener la proporción de la imagen */
+    object-fit: cover; /* Asegurarse de que se cubra el contenedor */
+    margin: 0 auto; /* Centrar la imagen dentro de la tarjeta */
+    image-rendering: auto;
+    object-fit: cover;
+}
+
+.card-info {
+    padding: 10px;
+    display: flex;
+    flex-direction: column;  
+    justify-content: flex-start; 
+    align-items: left; 
+    margin-left: 450px;
+   
+}
+
+.card-info p {
+    margin: 0; 
+    font-size: 14px; 
+    color: #6c757d; 
+}
+
+.card-info h3 {
+    font-size: 16px;
+    margin: 5px 0; 
+    font-weight: bold; 
+}
+
+footer {
+    background-color: #343a40;
+    color: white;
+    padding: 10px 0;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+.footer-icons {
+    display: flex;
+    justify-content: space-around;
+}
+
+.footer-icons .icon {
+    text-align: center;
+    font-size: 18px;
+    cursor: pointer;
+}
+
+.footer-icons .icon br {
+    margin-top: 4px;
+}
